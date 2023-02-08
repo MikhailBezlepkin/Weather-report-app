@@ -1,6 +1,7 @@
 package com.mixail.weatherreportapp.model
 
 data class WeatherModel(
+
     val city: String,
     val time: String,
     val condition: String,
@@ -10,4 +11,3 @@ data class WeatherModel(
     val minTemp: String,
     val hours: String
 )
-
